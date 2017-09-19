@@ -19,8 +19,7 @@ Create brand
 
 + Body
     + name (required, string)
-    + logo (required, string)
-    + rank (option, number)
+    + image (required, string)
 + Response
 
         {
@@ -33,5 +32,7 @@ Delete brand
 + Response
 
         {
-            success: true
+            data: {
+                success: true
+            }
         }
